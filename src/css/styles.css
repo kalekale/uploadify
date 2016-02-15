@@ -1,0 +1,38 @@
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    height: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    height: 100%;
+    width: auto;
+}
+
+button.upload {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+div.preview-img {
+    float: left;
+    width: 180px;
+}
+
+
+
+div.preview-img img {
+    width: 100%;
+    height: auto;
+}
